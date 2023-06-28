@@ -6,3 +6,5 @@ cat <<EOF > /var/www/html/index.html
 <p>This page was created from a startup script.</p>
 </body></html>
 EOF
+
+#comando para teste de stress => cat /dev/zero > /dev/null
