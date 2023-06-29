@@ -1,9 +1,9 @@
 #! /bin/bash
-apt update
+apt update && apt upgrade
 apt -y install apache2
 cat <<EOF > /var/www/html/index.html
-<html><body><h1>Hello World</h1>
-<p>This page was created from a startup script.</p>
+<html><body><h1>Funcionando!!!</h1>
+<p>Script funcionando dentro dos padrões.</p>
 </body></html>
 EOF
 
